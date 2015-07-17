@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instances
+	xmlns="http://www.optimizationBenchmarking.org/formats/experimentDataInterchange/experimentDataInterchange.1.0.xsd">
+	<instance name="uf020-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+	<instance name="uf020-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 20 variables and 91 clauses.">
+		<feature name="n" value="20" />
+		<feature name="k" value="91" />
+	</instance>
+
+	<instance name="uf050-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+	<instance name="uf050-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 50 variables and 218 clauses.">
+		<feature name="n" value="50" />
+		<feature name="k" value="218" />
+	</instance>
+
+
+	<instance name="uf075-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+	<instance name="uf075-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 75 variables and 325 clauses.">
+		<feature name="n" value="75" />
+		<feature name="k" value="325" />
+	</instance>
+
+	<instance name="uf100-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+	<instance name="uf100-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 100 variables and 430 clauses.">
+		<feature name="n" value="100" />
+		<feature name="k" value="430" />
+	</instance>
+
+	<instance name="uf125-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+	<instance name="uf125-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 125 variables and 538 clauses.">
+		<feature name="n" value="125" />
+		<feature name="k" value="538" />
+	</instance>
+
+	<instance name="uf150-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+	<instance name="uf150-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 150 variables and 645 clauses.">
+		<feature name="n" value="150" />
+		<feature name="k" value="645" />
+	</instance>
+
+	<instance name="uf175-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+	<instance name="uf175-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 175 variables and 753 clauses.">
+		<feature name="n" value="175" />
+		<feature name="k" value="753" />
+	</instance>
+
+	<instance name="uf200-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+	<instance name="uf200-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 200 variables and 860 clauses.">
+		<feature name="n" value="200" />
+		<feature name="k" value="860" />
+	</instance>
+
+	<instance name="uf225-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+	<instance name="uf225-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 225 variables and 960 clauses.">
+		<feature name="n" value="225" />
+		<feature name="k" value="960" />
+	</instance>
+
+	<instance name="uf250-01"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-02"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-03"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-04"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-05"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-06"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-07"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-08"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-09"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+	<instance name="uf250-10"
+		description="A uniformly randomly generated satisfiable 3-SAT instance with 250 variables and 1065 clauses.">
+		<feature name="n" value="250" />
+		<feature name="k" value="1065" />
+	</instance>
+</instances>

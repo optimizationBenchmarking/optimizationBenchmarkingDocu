@@ -1,0 +1,33 @@
+%
+\section*{Benchmarking Tips \& Tricks}%
+%
+\begin{frame}%
+\frametitle{Log Points and Termination}%
+\begin{itemize}%
+\item When benchmarking, the questions how to collect log points and when to terminate arises.%
+\item<2-> \only<-3>{In \tspSuite\expandafter\scitep{\tspSuiteReferences}, we found a nice solution for that and \bbob\expandafter\scitep{\bbobReferences} follows a similar approach: }\uncover<3->{\alert{Do everything in the objective function!}}%
+\item<4-> The objective function loads the problem instance in its constructor%
+\item<5-> It thus can provide information, like the number of clauses \maxSatClauses\ or variables \maxSatVariables\ in a MAX-SAT problem%
+\item<6-> Whenever a candidate solution is evaluated via a provided \texttt{evaluate} function\only<7-10>{%
+\begin{itemize}%
+\item it increases the internal FE counter by one%
+\item<8-> it checks whether a log point should be taken%
+\item<9-> if so, it stores the log point in a pre-allocated memory location%
+\item<10-> it can store the objective value, the FE counter, and the ellapsed time
+\end{itemize}%
+}\only<11->{, a log point may be taken}%
+%
+\item<11-> It also represents the termination criterion by providing a function \texttt{shouldTerminate}\only<-14>{, which becomes \texttt{true}, e.g., when%
+\uncover<12->{%
+\begin{itemize}%
+\item the FE counter reaches a certain maximum number%
+\item<13-> the global optimum was found (which we know from \texttt{evaluate})%
+\item<14-> a certain time has ellapsed%
+\end{itemize}%
+}}%
+\item<15-> \alert{After} the run, all the log points held in memory are written to a file.\uncover<16->{ No file operations during the run to not mess up time measurements!}%
+\end{itemize}%
+%%
+\end{frame}
+%
+%

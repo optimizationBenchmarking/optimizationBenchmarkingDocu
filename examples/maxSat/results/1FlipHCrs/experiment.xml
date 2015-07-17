@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experiment
+	xmlns="http://www.optimizationBenchmarking.org/formats/experimentDataInterchange/experimentDataInterchange.1.0.xsd"
+	name="1FlipHCrs" description="An experiment with a 1-flip Hill Climber with restarts.">
+	<parameter name="algorithm" value="HC" />
+	<parameter name="operator" value="1-flip" />
+	<parameter name="restart" value="true" />
+</experiment>

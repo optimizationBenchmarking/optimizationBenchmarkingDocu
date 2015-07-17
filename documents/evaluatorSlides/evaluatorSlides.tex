@@ -1,0 +1,66 @@
+\documentclass[mathserif]{beamer}%
+%
+\xdef\sharedPath{../../shared}%
+\xdef\optimizationBenchmarkingWebsite{http://www.optimizationBenchmarking.org}%
+\input{version.tex}%
+%
+\RequirePackage{\sharedPath/latexStyles/slides}%
+%
+\pgfdeclareimage[width=0.2\paperwidth]{optimizationBenchmarking_logo}{%
+\sharedPath/graphics/optimizationBenchmarking/optimizationBenchmarking_logo/optimizationBenchmarking_logo.pdf}%
+%
+\pgfdeclareimage[width=0.925\paperwidth]{bbob_features}{%
+\sharedPath/graphics/optimization/bbob/bbob_features/bbob_features}%
+%
+\title[Intro to the \href{http://www.optimizationBenchmarking.org}{optimizationBenchmarking.org} Evaluator]{%
+The \href{http://www.optimizationBenchmarking.org}{optimizationBenchmarking.org} Experiment Evaluator}%
+%
+\author[Thomas Weise]{%
+Thomas Weise\\%
+\footnotesize{%
+\mbox{\href{mailto:tweise@ustc.edu.cn}{tweise@ustc.edu.cn} $\cdot$} %
+\mbox{\href{mailto:tweise@gmx.de}{tweise@gmx.de} $\cdot$} %
+\mbox{\href{http://www.it-weise.de}{http://www.it-weise.de}}}}%
+%
+\institute[UBRI]{%
+USTC-Birmingham Joint Res. Inst. in Intelligent Computation and Its Applications (UBRI)\\%
+University of Science and Technology of China (USTC), Hefei 230027, Anhui, China%
+}%
+%
+\date{\today}%
+%
+%
+\begin{document}%
+%
+\startPresentation{%
+\locate{}{\pgfuseimage{optimizationBenchmarking_logo}}{0.725}{0.6}%
+}%
+%
+\input{part_website.tex}%
+\input{part_preface.tex}%
+%
+\AtBeginSection[]{%
+\begin{frame}%
+\frametitle{Section Outline}%
+\tableofcontents[currentsection]%
+\end{frame}%
+}%
+%
+%
+\input{part_introduction.tex}%
+\input{part_maxSatExample.tex}%
+\input{part_bbobExample.tex}%
+\input{part_conclusions.tex}%
+\input{part_website.tex}%
+%
+\endPresentation%
+%
+\appendices%
+%
+\input{part_developing.tex}%
+\input{part_benchmarking.tex}%
+\input{part_website.tex}%
+%
+\end{document}%%
+\endinput%
+%

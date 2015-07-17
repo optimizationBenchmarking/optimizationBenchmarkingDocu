@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg:configuration
+	xmlns:cfg="http://www.optimizationBenchmarking.org/formats/configuration/configuration.1.0.xsd">
+
+	<cfg:parameter name="inputDriver" value="csv+edi" />
+	<cfg:parameter name="inputSource" value="path(../results/)" />
+
+	<cfg:parameter name="documentDriver" value="export" />
+	
+	<cfg:parameter name="output" value="../reports/export/" />
+	<cfg:parameter name="docName" value="report" />
+
+	<cfg:parameter name="evaluationSetup" value="path(evaluation.xml)" />
+	
+	<cfg:parameter name="logger" value="global;ALL" />
+</cfg:configuration>

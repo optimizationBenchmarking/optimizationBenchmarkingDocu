@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e:evaluation
+	xmlns:e="http://www.optimizationBenchmarking.org/formats/evaluationConfiguration/evaluationConfiguration.1.0.xsd"
+	xmlns:cfg="http://www.optimizationBenchmarking.org/formats/configuration/configuration.1.0.xsd">
+
+	<cfg:configuration>
+		<cfg:parameter name="figureSize" value="2 per row" />
+		<cfg:parameter name="makeLegendFigure" value="true" />
+		<cfg:parameter name="showAxisTitles" value="false" />
+	</cfg:configuration>
+
+	<e:module class="all.ecdf.AllECDF">
+		<cfg:configuration>
+			<cfg:parameter name="xAxis" value="lg FEs" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="goal" value="1e-8" />
+			<cfg:parameter name="figureSize" value="page wide" />
+			<cfg:parameter name="makeLegendFigure" value="false" />
+		</cfg:configuration>
+	</e:module>
+
+	<e:module class="all.ecdf.AllECDF">
+		<cfg:configuration>
+			<cfg:parameter name="xAxis" value="lg FEs" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="goal" value="1e-8" />
+			<cfg:parameter name="groupBy" value="dim" />
+		</cfg:configuration>
+	</e:module>
+
+	<e:module class="all.ecdf.AllECDF">
+		<cfg:configuration>
+			<cfg:parameter name="xAxis" value="lg FEs" />
+			<cfg:parameter name="yAxis" value="F" />
+			<cfg:parameter name="goal" value="1e-5" />
+			<cfg:parameter name="groupBy" value="cond" />
+		</cfg:configuration>
+	</e:module>
+
+	<e:module class="all.aggregation2D.AllAggregation2D">
+		<cfg:configuration>
+			<cfg:parameter name="xAxis" value="lg(FEs/dim²)" />
+			<cfg:parameter name="yAxis" value="lg F" />
+			<cfg:parameter name="aggregate" value="median" />
+			<cfg:parameter name="groupBy" value="sep" />
+		</cfg:configuration>
+	</e:module>
+
+</e:evaluation>

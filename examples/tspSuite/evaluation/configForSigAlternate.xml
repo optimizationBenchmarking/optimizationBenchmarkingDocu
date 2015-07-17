@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg:configuration
+	xmlns:cfg="http://www.optimizationBenchmarking.org/formats/configuration/configuration.1.0.xsd">
+
+	<cfg:parameter name="inputDriver" value="tspSuite" />
+  <cfg:parameter name="inputSource" value="path(../results/)" />
+	
+	<cfg:parameter name="documentDriver" value="LaTeX" />
+	<cfg:parameter name="graphicDriver" value="pdf" />
+	<cfg:parameter name="output" value="../reports/LaTeX/SigAlternate/" />
+	<cfg:parameter name="docName" value="report" />
+	<cfg:parameter name="documentClass" value="SigAlternate" />
+
+	<cfg:parameter name="evaluationSetup" value="path(evaluation.xml)" />
+	<cfg:parameter name="logger" value="global;ALL" />
+</cfg:configuration>

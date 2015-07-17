@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dimensions
+	xmlns="http://www.optimizationBenchmarking.org/formats/experimentDataInterchange/experimentDataInterchange.1.0.xsd">
+
+	<dimension name="FEs"
+		description="The number of function evaluations, i.e., the amount of generated candidate solutions."
+		dimensionType="iterationFE" direction="increasingStrictly" dataType="long"
+		iLowerBound="1" />
+
+	<dimension name="RT" description="The elapsed runtime in nanoseconds."
+		dimensionType="runtimeCPU" direction="increasing" dataType="long"
+		iLowerBound="0" />
+
+	<dimension name="F" description="The fraction of unsatisfied clauses."
+		dimensionType="qualityProblemDependent" direction="decreasing"
+		dataType="int" iLowerBound="0" iUpperBound="2000" />
+
+</dimensions>
