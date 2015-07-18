@@ -6,8 +6,9 @@ In this folder, we provide an example application of the *optimizationBenchmarki
 
 This example is structured as follows
 
-1. `make.sh`, a bash shell script which can be used to download all files needed for the example (such as the evaluator component and all results) and create the example reports live on your machine!
-2. The folder `evaluation` contains the configuration files to generate some evaluation reports with our evaluator component.
+1. [`make.sh`](https://raw.githubusercontent.com/optimizationBenchmarking/optimizationBenchmarkingDocu/master/examples/bbob/make.sh), a bash shell script which can be used to download all files needed for the example (such as the evaluator component and all results) and create the example reports live on your machine!
+2. [`make.bat`](https://raw.githubusercontent.com/optimizationBenchmarking/optimizationBenchmarkingDocu/master/examples/bbob/make.bat), a Windows command line script which can be used to download all files needed for the example (such as the evaluator component and all results) and create the example reports live on your machine!
+3. The folder `evaluation` contains the configuration files to generate some evaluation reports with our evaluator component.
 
 ## BBOB and COCO
 

@@ -7,10 +7,11 @@ In this folder, we provide an example application of the *optimizationBenchmarki
 This example is structured as follows
 
 1. The folder `benchmark` contains some benchmark instances for the MAX-3SAT problem from a popular benchmark instance set. A detailed description of these instances is given in the `README.md` file inside the folder.
-2. `make.sh`, a bash shell script which can be used to download all files needed for the example (such as the evaluator component and all results) and create the example reports live on your machine!
-3. The folder `sources` contains some simple `Java` "solvers" to solve these MAX-3SAT instances. These "solvers" (notice the quotes) are not an attempt to actually solve the problems well - they are quite stupid and primitive. But they are easy to understand, which is the goal of the example. They also illustrate how data can be gathered in log files which can later be loaded into the evaluator.
-4. The folder `results` contains the results of these algorithms.
-5. The folder `evaluation` contains the configuration files to generate some evaluation reports with our evaluator component. 
+2. [`make.sh`](https://raw.githubusercontent.com/optimizationBenchmarking/optimizationBenchmarkingDocu/master/examples/maxSat/make.sh), a bash shell script which can be used to download all files needed for the example (such as the evaluator component and all results) and create the example reports live on your machine!
+3. [`make.bat`](https://raw.githubusercontent.com/optimizationBenchmarking/optimizationBenchmarkingDocu/master/examples/maxSat/make.bat), a Windows command line script which can be used to download all files needed for the example (such as the evaluator component and all results) and create the example reports live on your machine!
+4. The folder `sources` contains some simple `Java` "solvers" to solve these MAX-3SAT instances. These "solvers" (notice the quotes) are not an attempt to actually solve the problems well - they are quite stupid and primitive. But they are easy to understand, which is the goal of the example. They also illustrate how data can be gathered in log files which can later be loaded into the evaluator.
+5. The folder `results` contains the results of these algorithms.
+6. The folder `evaluation` contains the configuration files to generate some evaluation reports with our evaluator component. 
 
 ## The MAX-3SAT Problem
 
