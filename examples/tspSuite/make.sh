@@ -25,4 +25,5 @@ java -jar "${outputDir}/${jarName}" -configXML=configForSigAlternate.xml
 cd "${outputDir}"
 rm make.sh
 rm make.bat
+rm makeGraphics.sh
 echo "Done."
