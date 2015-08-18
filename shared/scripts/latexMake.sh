@@ -41,6 +41,7 @@ while [ "$oldpdfsize" -ne "$pdfsize" ]; do
   
   oldpdfsize=$pdfsize
   pdflatex "$document"
+  pdflatex "$document"
 
   for i in *.aux; do
      bibtex "$i"

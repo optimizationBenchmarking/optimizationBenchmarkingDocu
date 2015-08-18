@@ -1,6 +1,6 @@
 # License of the Optimization Benchmarking Documentation Project
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. However, there are some elements in this project which are exempt from this license and for which other license terms apply. These elements are listed under point *Exceptions*. For all elements of this project not listed there, the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) holds.
+This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. However, there are some elements in this project which are exempt from this license and for which other license terms apply. These elements are listed under point *Exceptions*. For all elements of this project not listed there, the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) holds.
 
 
 ## Attribution 4.0 International
