@@ -11,7 +11,7 @@
 		dimensionType="runtimeCPU" direction="increasing" dataType="long"
 		iLowerBound="0" />
 
-	<dimension name="F" description="The fraction of unsatisfied clauses."
+	<dimension name="F" description="The number of unsatisfied clauses."
 		dimensionType="qualityProblemDependent" direction="decreasing"
 		dataType="int" iLowerBound="0" iUpperBound="2000" />
 
