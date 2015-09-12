@@ -30,4 +30,5 @@ java -jar "..\optimizationBenchmarking.jar" -configXML=configForSigAlternate.xml
 cd..
 del *.sh
 del *.bat
+del README.md
 echo "Done."

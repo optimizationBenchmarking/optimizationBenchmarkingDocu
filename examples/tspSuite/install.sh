@@ -13,4 +13,5 @@ rm "${outputDir}/results.tar.lzma"
 cd "${outputDir}"
 rm *.sh
 rm *.bat
+rm README.md
 echo "Done."

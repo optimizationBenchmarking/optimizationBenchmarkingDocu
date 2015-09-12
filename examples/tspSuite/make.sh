@@ -25,4 +25,5 @@ java -jar "${outputDir}/${jarName}" -configXML=configForSigAlternate.xml
 cd "${outputDir}"
 rm *.sh
 rm *.bat
+rm README.md
 echo "Done."

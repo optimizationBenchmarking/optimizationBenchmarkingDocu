@@ -19,4 +19,5 @@ rd /s /q svn
 
 del *.sh
 del *.bat
+del README.md
 echo "Done."
