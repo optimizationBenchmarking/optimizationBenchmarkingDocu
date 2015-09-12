@@ -17,7 +17,6 @@ del results.tar
 
 rd /s /q svn
 
-cd..
 del *.sh
 del *.bat
 echo "Done."
