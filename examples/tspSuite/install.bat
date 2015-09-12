@@ -1,9 +1,3 @@
-echo "Downloading evaluator."
-powershell -command "& {iwr http://optimizationbenchmarking.github.io/optimizationBenchmarking/currentVersion.url -OutFile version.txt}"
-for /F "delims=" %i in (version.txt) do set downloadURL=%i
-powershell -command "& {iwr %downloadURL% -OutFile optimizationBenchmarking.jar}"
-del version.txt
-
 echo "Downloading (but not installing!) required 3rd-party software: downloading SVN client and 7-Zip to extract it."
 md svn
 cd svn
@@ -22,10 +16,6 @@ svn\7za x results.tar -oresults
 del results.tar
 
 rd /s /q svn
-
-echo "Applying evaluator and obtaining report in sig-alternate format."
-cd evaluation
-java -jar "..\optimizationBenchmarking.jar" -configXML=configForSigAlternate.xml
 
 cd..
 del *.sh
